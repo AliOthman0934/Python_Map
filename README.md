@@ -23,4 +23,3 @@ Cybersecurity & Hacking (including tools like Metasploit, as you asked earlier)
 
 Game Development
 
-Desktop Apps
