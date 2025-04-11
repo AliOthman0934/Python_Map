@@ -1,5 +1,4 @@
 # Python_Map
-
 Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. It was created by Guido van Rossum and first released in 1991.
 
 🔑 Key Features of Python:
@@ -24,4 +23,3 @@ Cybersecurity & Hacking (including tools like Metasploit, as you asked earlier)
 
 Game Development
 
-Desktop Apps
