@@ -13,3 +13,8 @@ print("I LOVE PYTHON") # Why i use the line
 #
 #
 #------------------------------------------------------------
+
+# Variable
+name='This is variable'
+Phone= 25453232
+isMy= True
