@@ -28,3 +28,24 @@ print(a.upper())
 
 #lower()
 print(a.lower())
+
+#split(),rsplit()
+g="Hello my name is ali"
+print(g.split())
+print(g.split("-",2))
+
+# count()
+h="This is text"
+print(h.count("t"))
+
+#center()
+print(h.center(15,"#"))
+
+#sawpcase()
+print(h.swapcase())
+
+#startsWith()
+print(h.startswith("i"))
+
+#endWith()
+print(h.endswith("t"))
