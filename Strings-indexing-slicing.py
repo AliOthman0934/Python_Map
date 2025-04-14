@@ -49,3 +49,34 @@ print(h.startswith("i"))
 
 #endWith()
 print(h.endswith("t"))
+
+#index()
+print(h.index("p"))
+#print(h.index("p",0,15)) error
+
+#find()
+#same method like index 
+
+#rjust(width,fill char)
+#same like center()
+
+#splitline()
+lin=""" hallo
+heelo
+hey"""
+print(lin.splitlines())
+
+#istitle()
+print(h.istitle())
+
+#islower()
+print(h.islower())
+
+#isspace()
+#isidentifier()
+#isaplpha()
+#isalnum()
+
+#replace()
+replaceText="hallo this me "
+print(replaceText.replace("this","is",1))
