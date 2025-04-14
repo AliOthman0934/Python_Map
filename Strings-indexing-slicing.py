@@ -51,7 +51,7 @@ print(h.startswith("i"))
 print(h.endswith("t"))
 
 #index()
-print(h.index("p"))
+#print(h.index("p"))
 #print(h.index("p",0,15)) error
 
 #find()
@@ -80,3 +80,7 @@ print(h.islower())
 #replace()
 replaceText="hallo this me "
 print(replaceText.replace("this","is",1))
+
+#join()
+mylist=["ali","osman","jalal"]
+print(",".join(mylist))
