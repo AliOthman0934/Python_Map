@@ -76,3 +76,7 @@ print(h.islower())
 #isidentifier()
 #isaplpha()
 #isalnum()
+
+#replace()
+replaceText="hallo this me "
+print(replaceText.replace("this","is",1))
