@@ -51,3 +51,19 @@ print(c)
 e = ["osman",4,"ali",5]
 e.reverse()
 print(e)
+
+
+# clear()
+
+m= [2,56,34,75556]
+m.clear()
+print(m)
+
+
+# copy()
+h=["one","tow","three"]
+u = h.copy()
+print(u)
+
+#index()
+print(h.index("one"))
