@@ -67,3 +67,12 @@ print(u)
 
 #index()
 print(h.index("one"))
+
+#insert()
+f=["ali","age"]
+f.insert(0,"text")
+print(f)
+
+
+# pop()
+print(f.pop(0))
