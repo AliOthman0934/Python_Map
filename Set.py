@@ -88,6 +88,25 @@ print(diff2.symmetric_difference(diff))
 diff2.symmetric_difference_update(diff)
 print(diff2)
 
+# Set methods part 3
 
+# insuperset()
+isSuper={1,2,3,4}
+isSuper2={1,2,3}
+isSuper3={1,2,3,4,5}
+
+print(isSuper.issuperset(isSuper2))
+print(isSuper.issuperset(isSuper3))
+
+
+# issubset()
+
+print(isSuper.issubset(isSuper3))
+
+
+# isdisjoint()
+
+print(isSuper.isdisjoint(isSuper2))
+print(isSuper.isdisjoint(isSuper3))
 
 
