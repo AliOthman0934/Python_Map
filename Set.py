@@ -8,7 +8,7 @@ print(mySetTow)
 #print(mySetTow[0]) not indexed
 
 # Set has only immutable data type(numbers,strings,tuples) list and dict not
-mySetThree={"Ali",343,"Osman",677,True,[1,2,3]}
+#mySetThree={"Ali",343,"Osman",677,True,[1,2,3]}
 #print(mySetThree) error unhashable type list
 
 # Set itmes is unique
@@ -36,7 +36,7 @@ print(d)
 
 # copy()
 e={1,2,3,4}
-f=e.copy(e)
+f=e.copy()
 print(f)
 
 # remove()
@@ -59,3 +59,35 @@ j={3,4,5,"Ali"}
 k={3,4,5,"osman"}
 j.update(k)
 print(k)
+
+# Sit methods part 2
+
+# difference()
+diff={1,277,89,43,55}
+diff2={"hallo","hi",55,1}
+
+print(diff.difference(diff2))
+print(diff2.difference(diff))
+
+# difference-update()
+#diff.difference_update(diff2)
+#print(diff)
+
+# intersection()
+print(diff.intersection(diff2))
+print(diff2.intersection(diff))
+
+# intersction-update()
+#diff.intersection_update(diff2)
+#print(diff)
+
+# symmetric-difference
+print(diff2.symmetric_difference(diff))
+
+# symmtric-difference-update()
+diff2.symmetric_difference_update(diff)
+print(diff2)
+
+
+
+
